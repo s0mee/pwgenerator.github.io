@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("snow.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Souce Sans Pro", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.pw-container {
+  background-color: rgba(0, 0, 0, 0.632);
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+.pw {
+  background-color: rgba(0, 0, 0, 0.301);
+  display: flex;
+  font-size: 1.9rem;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.pw button {
+  background-color: rgba(0, 0, 0, 0.301);
+  position: absolute;
+  border: none;
+  color: white;
+  padding: 0.15rem 1rem;
+  bottom: -30%;
+  right: -8.5%;
+  transform: translate(-50%, 50%);
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0;
+}
+.form-control input {
+  color: black;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.753);
+  border: none;
+}
+
+.pw-body {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.generate {
+  background-color: rgba(0, 0, 0, 0.301);
+  border: none;
+  color: white;
+  padding: 0.35rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 3%;
+  width: 100%;
+}
